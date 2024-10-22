@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bulb On Off App</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            transition: transform 0.5s;
+
+        }
+
+        html {
+            overflow-x: hidden;
+        }
+    </style>
+</head>
+
+<body
+    style="background: rgba(0, 0, 0, 0.792); width: 100%; height: 100vh; display: flex; justify-content: center; align-items: center;">
+
+    <div class="bulb" style="width: 400px; max-width: 100%; border-radius: 8px; padding: 2rem; background: #fff;">
+        <img src="./off.png" alt="" style="width: 100%; height: 300px; object-fit: contain;" onclick="ToggleImg()"
+            id="image">
+    </div>
+
+</body>
+<script src="app.js"></script>
+
+</html>
